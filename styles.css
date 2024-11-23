@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #ad6717;
-    --accent-color: #f68b11;
+    --primary-color: #000000;
+    --accent-color: #1124f6;
     --text-dark: #333;
     --text-medium: #666;
     --text-light: #4d4d4d;
@@ -281,6 +281,7 @@ body {
     align-items: center;
     gap: 8px;
     justify-content: flex-start;
+    cursor: pointer;
   }
 
   .icon-wrapper {
@@ -385,13 +386,14 @@ body {
     margin-top: 39px;
     gap: 16px;
     flex-wrap: wrap;
-    padding: 16px 292px;
+    padding: 16px 209px;
   }
 
   .content-image {
-    width: 540px;
-    border-radius: 24px;
+    width: 30%;
+    border-radius: 10px;
     min-width: 240px;
+    margin: 50px;
   }
 
   .content-text {
